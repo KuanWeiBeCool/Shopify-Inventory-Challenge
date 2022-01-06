@@ -3,4 +3,4 @@
 Here is the link of my app: https://kw-inventory-app.herokuapp.com/
 
 
-Please check the video link below for detailed instruction of how to use my app:
+Please check the YouTube video for detailed instruction of how to use my app: https://youtu.be/hy3H0PPgqOY
