@@ -10,7 +10,7 @@ class Product(models.Model):
     description = models.TextField(null=True, blank=True)
     date_posted = models.DateTimeField(auto_now=True)
     category = models.CharField(max_length=100)
-    brand = models.CharField(max_length=200, null=True, blank=True)
+    brand = models.CharField(max_length=200)
     countInStock = models.PositiveIntegerField(default=0) # Only positive integer is allowed
     image = models.ImageField(default='default.png', upload_to='product_pics')
     
