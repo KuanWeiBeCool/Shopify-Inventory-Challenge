@@ -75,7 +75,7 @@ class ProductUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
             return True
         return False
     
-
+@login_required
 def ProductDeleteView(request, pk):
     entry = Product.objects.get(id=pk)
     entry.delete()
