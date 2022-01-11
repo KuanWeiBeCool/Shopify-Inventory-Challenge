@@ -51,6 +51,7 @@ py -3 -m venv .venv
 .venv\scripts\activate
 
 9. In VS Code, open the Command Palette (**View** > **Command Palette** or (Ctrl+Shift+P)). Then select the **Python: Select Interpreter** command:
+10. 
 ![image](https://user-images.githubusercontent.com/64152297/148978774-54ce5129-afea-4a2f-a098-b6d026caa3fd.png)
 
 10. The command presents a list of available interpreters that VS Code can locate automatically (your list will vary; if you don't see the desired interpreter, see [Configuring Python environments](https://code.visualstudio.com/docs/python/environments)). From the list, select the virtual environment in your project folder that starts with ./.venv or .\.venv:
