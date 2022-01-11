@@ -75,3 +75,9 @@ pip install -r requirements.txt
 python manage.py runserver
 
 ![image](https://user-images.githubusercontent.com/64152297/148980312-e3dc1dbf-960b-4429-8a30-b2d1c35b760b.png)
+
+15. Run Unit Tests:
+
+python manage.py test
+
+![image](https://user-images.githubusercontent.com/64152297/148983620-8ec3f338-9626-4147-950f-d7b5f519dbc4.png)
